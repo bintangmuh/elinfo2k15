@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+}
+header {
+  height: 100vh;
+  background-image: url('../eduhackathon.jpg');
+  background-size: cover;
+  color: #fff;
+  text-shadow: 4px 4px 2px #000;
+  text-align: center;
+  position: relative;
+}
+header:after {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(14, 139, 230, 0.54);
+  z-index: 2;
+}
+header b {
+  position: relative;
+  font-size: 100px;
+  z-index: 3;
+}
+.about {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 18pt;
+  text-align: justify;
+  background-color: rgb(238, 238, 238);
+}
+.about .title {
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 20pt;
+  text-align: center;
+}
+
+#bidanglomba {
+  line-height: 18pt;
+  text-align: justify;
+}
+.card-panel {
+  /*width: 80%;*/
+  margin: 5px auto;
+  box-shadow: 1px 3px 5px #b4b4b4;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+.card-panel .gambar {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: -10%;
+  margin-right: -10%;
+  margin-top: -20%;
+  transition: 0.2s;
+}
+.card-panel:hover .gambar {
+  border-radius:0;
+  overflow: hidden;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+.card-panel .content {
+  padding: 15px;
+}
+#roborace .content h2 {
+  color: rgb(33, 151, 236);
+}
+#itcomp .content h2 {
+  color: rgb(7, 184, 88);
+}
