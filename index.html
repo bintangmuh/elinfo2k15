@@ -16,7 +16,7 @@
       <b>Coming Soon</b>
       <div class="navigasi">
         <nav id="nav">
-         <ul class="nav navbar-nav">
+         <ul>
              <li>
                <a href="#tentang">Tentang</a>
              </li>
@@ -24,7 +24,7 @@
                <a href="#bidanglomba">Bidang Lomba</a>
              </li>
              <li>
-               <a href="#services">Services</a>
+               <a href="#informasi">Informasi</a>
              </li>
              <li>
                <a href="#contact">Contact</a>
@@ -95,17 +95,14 @@
       </div>
     </section>
     <!-- Informasi -->
-    <section class="informasi text-center">
+    <section class="informasi text-center" id="informasi">
       <a class="btn button" href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Informasi</a>
       <a class="btn button" href="#"><span class="glyphicon glyphicon-login" aria-hidden="true"></span> Pendaftaran</a>
     </section>
     <!-- Sponsor -->
     <section class="sponsor">
-      <h3 class="text-center">Open Sponsor</h3>
-      <p class="text-center">
-        sponsor goes here <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <h2 class="text-center">Sponsor</h2>
+      <h3 class="text-center" style="opacity: 0.6">Open For Sponsor</h3>
     </section>
     <!-- footer -->
     <section class="footer">
@@ -127,22 +124,7 @@
     <script type="text/javascript">
     $(function () {
      $('nav').stickyNavbar({
-      activeClass: "active",          // Class to be added to highlight nav elements
-      sectionSelector: "scrollto",    // Class of the section that is interconnected with nav links
-      animDuration: 0,              // Duration of jQuery animation
-      startAt: 0,                     // Stick the menu at XXXpx from the top of the this() (nav container)
-      easing: "linear",
-      animateCSS: true,               // AnimateCSS effect on/off
-      animateCSSRepeat: false,        // Repeat animation everytime user scrolls
-      cssAnimation: "fadeInDown",     // AnimateCSS class that will be added to selector
-      jqueryEffects: false,           // jQuery animation on/off
-      jqueryAnim: "slideDown",        // jQuery animation type: fadeIn, show or slideDown
-      selector: "a",                  // Selector to which activeClass will be added, either "a" or "li"
-      mobile: false,                  // If false nav will not stick under 480px width of window
-      mobileWidth: 480,
-      zindex: 9999,                   // The zindex value to apply to the element: default 9999, other option is "auto"
-      stickyModeClass: "sticky",
-      unstickyModeClass: "unsticky"
+       mobile: true,
      });
     });
     </script>
