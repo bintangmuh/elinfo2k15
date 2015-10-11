@@ -45,6 +45,8 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
 }
 nav ul li a {
   padding: 15px;
@@ -178,8 +180,14 @@ nav ul li a:hover {
   background-color: #fff;
   text-decoration: none;
 }
+.sponsor {
+  height: 400px;
+}
 .footer {
   padding: 20px;
   background-color: rgb(8, 129, 255);
   color: #fff;
+}
+.modal {
+  z-index: 99999999999999999;
 }
